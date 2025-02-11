@@ -234,3 +234,409 @@ Bonus: Learn how to hot-reload a Spring Boot project.
 ## Week 10: Building a Student Management System
 
 Project: Build a Student Management System with REST APIs and PostgreSQL.
+
+
+---
+
+# Level 2: Intermediate (Weeks 11–25)
+
+Focus: Deepen Spring Boot knowledge, explore asynchronous programming, Spring Security, NoSQL databases, and real-time communication.
+
+
+---
+
+## Week 11: Spring Core (IoC & DI)
+
+Topics:
+* Inversion of Control & IoC Container
+* Dependency Injection design pattern
+* Beans and Bean lifecycle.
+* Spring annotations (@Bean, @Component, @Configuration, etc)
+
+Resources:
+
+- [Spring IoC Documentation](https://docs.spring.io/spring-framework/reference/core/beans.html)
+- [Dependency Injection (Yehia Tech)](https://youtu.be/ttza41X-O6k?si=gC4w2oNyL-0HUNTf)
+- [Spring Beans and DI (Maaike)](https://www.youtube.com/watch?v=aS9SQITRocc)
+- [Spring IoC & DI (Telusko)](https://youtu.be/5cRaQqQb14Q?si=LMnNJ8FzBxvzd5gj)
+- [Dependency Injection in Spring Boot (Telusko)](https://youtu.be/9EoAXpjnsxM?si=3nXAy7l-UgAuiosv)
+- [Autowire in Spring Boot (Telusko)](https://youtu.be/ET39IFffr24?si=HWPLKUybWdwse9jF)
+- [Spring Configuration (Code Java)](https://www.youtube.com/watch?v=xP04pANWBxE)
+
+Task: Apply what you understood to the Student Management System or revisit what you already did for dependency injection.
+
+Bonus: Learn about Spring Profiles.
+
+
+## Week 12: Validation and Error Handling
+
+Topics:
+* Input validation (@Valid, @NotNull, Optional<>)
+* Custom exception handling (@ControllerAdvice)
+* Global exception handling (@RestControllerAdvice, @ExceptionHandler)
+
+Resources:
+
+- [Spring Exceptions Documentation](https://docs.spring.io/spring-framework/reference/web/webmvc/mvc-controller/ann-exceptionhandler.html)
+- [Spring ControllerAdvice Documentation](https://docs.spring.io/spring-framework/reference/web/webmvc/mvc-controller/ann-advice.html)
+- [Spring Validation Documentation](https://docs.spring.io/spring-framework/reference/web/webmvc/mvc-controller/ann-validation.html)
+- [Java Exceptions (Coding With John)](https://youtu.be/1XAfapkBQjk?si=C3_nKYdqbD0TmqNj)
+- [Validation in Spring Boot (Java Techie)](https://youtu.be/gPnd-hzM_6A?si=RA7QdMFwXyiPaWYd)
+- [Spring Exception Handling (CodeSnippet)](https://youtu.be/IdHHwZg3v58?si=twwo-oeASqVKvxmY)
+- [Spring Input Validation (Fast & Simple Dev)](https://youtu.be/LItERTUC9y4?si=89VXDylJC7LmtE-W)
+
+Task: Add validation to the Student Management System and create custom error messages for invalid inputs.
+
+Bonus: Learn about CORS.
+
+
+## Week 13: Testing in Spring Boot
+
+Topics:
+* Unit testing with JUnit and Mockito
+* Integration testing with testcontainers
+* API Documentation
+
+Resources:
+
+- [Spring Testing Documentation](https://docs.spring.io/spring-framework/reference/testing.html)
+- [Spring Boot Testing Documentation](https://docs.spring.io/spring-boot/reference/testing/index.html)
+- [Unit vs Int Testing Intro (Dan Vega)](https://youtu.be/pNiRNRgi5Ws?si=-SMzaUukHOHGe-97)
+- [Spring Boot Unit Testing (Teddy)](https://youtube.com/playlist?list=PL82C6-O4XrHcg8sNwpoDDhcxUCbFy855E&si=mGi5nqRWf7j4My9c)
+- [Spring Boot Testing (Amigoscode)](https://www.youtube.com/watch?v=Geq60OVyBPg)
+
+Task: Write unit tests for services and controllers, and integration tests for the database layer.
+
+Bonus: Learn about Swagger.
+
+
+## Week 14: Filters & Interceptors, Lombok, Pagination & Filtering, File Uploads
+
+Topics:
+* Spring Boot Filters
+* Spring Boot Interceptors
+* Lombok Annotations
+* Pagination & Filtering Data
+* Uploading a File with MULTIPART Requests
+
+Resources:
+
+- [Spring Filters Documentation](https://docs.spring.io/spring-framework/reference/web/webmvc/filters.html)
+- [Spring Interceptors Documentation](https://docs.spring.io/spring-framework/reference/web/webmvc/mvc-config/interceptors.html)
+- [Spring Boot File Upload Documentation](https://spring.io/guides/gs/uploading-files)
+- [Spring Filter Series (Sergey Tech)](https://youtube.com/playlist?list=PLrHjhj3I5M_ljv8s-Bejj4tbYPjOnjwQp&si=yugB_pYcNNg_Rpbb)
+- [Spring Boot Interceptors (CodeSnippet)](https://youtu.be/fNMciZvDN6A?si=zPzkU_IPoglQFkBw)
+- [Lombok Tutorial (Amigoscode)](https://youtu.be/z7bsNF2Dtf0?si=9U5U17NdttXdL33w)
+- [Spring Boot File Upload & Download (Java Techie)](https://youtu.be/XUL60-Ke-L8?si=6Ri2ulOIQfBgVNN7)
+- [Spring Boot File Upload & Download (Telusko)](https://youtu.be/JIWdBBtCrjM?si=_BwWlx7GBGuBOadD)
+- [Pagination in Spring Boot (Teddy)](https://youtu.be/HJw8p4SIJSs?si=XnPFyoRk56kAKTyP)
+- [Pagination and Sorting in Spring Boot (Java Techie)](https://youtu.be/Wa0GQwWwzJE?si=OaVGNiEQeosIwwnr)
+- [How to Define a Spring Boot Filter (GeeksforGeeks)](https://www.geeksforgeeks.org/how-to-define-a-spring-boot-filter/)
+- [How to Define a Spring Boot Interceptors (GeeksforGeeks)](https://www.geeksforgeeks.org/spring-boot-interceptor/)
+- [Pagination and Sorting in Spring Data JPA (Baeldung)](https://www.baeldung.com/spring-data-jpa-pagination-sorting)
+- [Spring Boot File Upload & Download (GeeksforGeeks)](https://www.geeksforgeeks.org/spring-mvc-implementing-file-uploads-and-downloads/)
+
+Task: <br>
+1- Add logging feature to the students' management system using filters once and using interceptors once. <br>
+2- Add the pagination feature to the students' management system. <br>
+3- Add lombok annotations to the students' management system. <br>
+4- Create a simple Spring Boot application that allows users to upload files using multipart requests and stores them in the local file system (or database for learning purposes). <br>
+
+Bonus: Take a look on `Firebase` and try to implement file upload & download feature using `Firebase` instead of the above ways.
+
+Note: In these resources, uploaded files are either stored in a database or saved as local files on the server. However, in most cases, this is not the best approach. Typically, uploaded files should be stored in a cloud service provider such as `AWS` or `Firebase`, while only the file URL is saved in the database. We will cover this in more detail during the `Firebase` week.
+
+
+## Week 15: Introduction to Spring Security (Part 1)
+
+Topics:
+* Authentication vs Authorization
+* Basic Authentication
+* Session-based authentication
+* Role-based access control
+* CORS
+
+Resources:
+
+- [Spring Security Documentation](https://docs.spring.io/spring-security/reference/index.html)
+- [Spring Boot Security Documentation](https://docs.spring.io/spring-boot/reference/web/spring-security.html#web.security)
+- [Authentication vs Authorization & Security Concepts (Java Brains)](https://www.youtube.com/watch?v=I0poT4UxFxE)
+- [Spring Boot Basic Authentication (Lazy Programmer)](https://youtu.be/IeDxBpe8j64?si=yv6JxVN7muM4XL21)
+- [Role-based Access Control (Lazy Programmer)](https://youtu.be/Wq3MZxBlVzI?si=tXLiV4Wcygg3z7af)
+- [Spring Security (Lazy Programmer) (start from end to start)](https://youtube.com/playlist?list=PLOktGWstEblrgb_rNddv3HGaazetE3t1A&si=AjT0vZs2OOBOVoq1)
+- [Spring Security Basics (Java Brains)](https://www.youtube.com/playlist?list=PLqq-6Pq4lTTYTEooakHchTGglSvkZAjnE)
+- [CORS in Spring (Telusko)](https://www.youtube.com/watch?v=iC1a8cUzGgc)
+- [session-based Authentication (Baeldung)](https://www.baeldung.com/spring-security-session)
+- [Basic Authentication (Baeldung)](https://www.baeldung.com/spring-security-basic-authentication)
+
+Task: <br>
+1- Implement basic authentication in your Spring Boot application.
+* Use httpBasic() in your security configuration.
+* Test the secured endpoints using Postman. <br>
+
+2- Implement session-based authentication.
+* Configure formLogin() for session management.
+* Use HttpSession to store user-specific data. <br>
+
+3- Configure role-based access control (e.g., allow only admins to delete resources). <br>
+4- Test the secured endpoints using Postman. <br>
+
+Bonus: Learn about Lombok.
+
+Note: I recommend the first part of Lazy Programmer's playlist for this week.
+
+
+## Week 16: Spring Security (Part 2): JWT and OAuth2
+
+Topics:
+* JWT (JSON Web Tokens)
+* OAuth2
+* Custom security configurations
+
+Resources:
+- [Spring Security Documentation](https://docs.spring.io/spring-security/reference/index.html)
+- [Spring Boot Security Documentation](https://docs.spring.io/spring-boot/reference/web/spring-security.html#web.security)
+- [Spring Security (Lazy Programmer) (start from end to start)](https://youtube.com/playlist?list=PLOktGWstEblrgb_rNddv3HGaazetE3t1A&si=AjT0vZs2OOBOVoq1)
+- [Spring Security Basics (Java Brains)](https://www.youtube.com/playlist?list=PLqq-6Pq4lTTYTEooakHchTGglSvkZAjnE)
+- [JWT & OAuth2 with Spring Security (Telusko)](https://www.youtube.com/watch?v=oeni_9g7too)
+- [JWT Authentication (Baeldung)](https://www.baeldung.com/spring-security-oauth-jwt)
+
+Task: <br>
+1- Implement JWT-based authentication in your Spring Boot application.
+* Generate and validate JWTs.
+* Add a refresh token mechanism for token renewal. <br>
+
+2- Secure your REST APIs with role-based access using JWT. <br>
+3- Integrate OAuth2 with a provider like Google or GitHub. <br>
+4- Test the secured endpoints using Postman. <br>
+
+Bonus: Learn about Filters in Spring Boot.
+
+Note: I recommend watching the second part of Lazy Programmer's playlist and Telusko's video for this week.
+
+
+## Week 17: Sending Messages to Users via E-mail & SMS
+
+Topics:
+* SMTP servers
+* SMS messages
+* OTPs (One Time Password)
+
+Resources:
+
+- [Setup Gmail SMTP Server](https://youtu.be/kTcmbZqNiGw?si=rHu155NGP6VkaAZ9)
+- [Sending E-mails in Spring Boot](https://youtu.be/ugIUObNHZdo?si=V65zzbeGJxMLy7eP)
+- [Spring Email (Baeldung)](https://www.baeldung.com/spring-email)
+- [SMS via Twilio in Spring Boot (Amigoscode)](https://youtu.be/OuBttmaPlhM?si=ZzRaiO3Ufw-VvogN)
+
+Task: <br>
+1- Configure a Gmail SMTP and write the email sending service. <br>
+2- Create a simple email verification service by sending an OTP to the given email. <br>
+
+Bonus: Learn about pagination.
+
+
+## Week 18: More SQL Databases and Hibernate ORM
+
+Topics:
+* Advanced SQL concepts
+* Hibernate ORM
+* Joins & relationships
+* Aggregate functions
+
+Resources:
+
+- [Hibernate Documentation](https://docs.jboss.org/hibernate/orm/6.6/introduction/html_single/Hibernate_Introduction.html)
+- [Spring Hibernate Documentation](https://docs.spring.io/spring-framework/reference/data-access/orm/hibernate.html)
+- [Hibernate and JPA Tutorial (Marco)](https://youtu.be/xHminZ9Dxm4?si=O1FXR-ga9GZb8KtL)
+- [SQL Joins Animated + Practice (Anton)](https://youtu.be/Yh4CrPHVBdE?si=NTskK_hzaFnPVUSo)
+- [Learn SQL Joins (Decomplexify)](https://youtu.be/nivyaiCeWjs?si=orLEGaNaKXiWqL_i)
+- [Aggregate Functions in SQL (Bro Code)](https://youtu.be/9HXJUGT-06w?si=rorP_uXiUKYTbPsG)
+- [Aggregate Functions in SQL (Becoming a Data Scientist)](https://youtu.be/jcoJuc5e3RE?si=G2_n7MxtfF8koxPX)
+- [Advanced Aggregate Functions in SQL (Becoming a Data Scientist)](https://youtu.be/nNrgRVIzeHg?si=Nav2epckJhLvgRYS)
+- [Advanced SQL Tutorial (Mode Analytics)](https://mode.com/sql-tutorial)
+- [SQL Aggregate Functions (W3Schools)](https://www.w3schools.com/sql/sql_count_avg_sum.asp)
+- [SQLZoo Interactive Quizes](https://sqlzoo.net/wiki/SQL_Tutorial)
+
+Task: Solve SQL problems on HackerRank or Leetcode.
+
+Bonus: Learn how to design a database.
+
+Note: It's important to understand the difference between `JPA`, `Hibernate`, and `Spring Data JPA`. `JPA` is a specification or an interface, `Hibernate` is an implementation of this interface and an ORM, and `Spring Data JPA` is a framework that relies on `JPA` implementations like `Hibernate` or any other implementation (but `Hibernate` is the default one). While `Spring Data JPA` is the most used option for ORMs and database interactions and that you will rarely need to do raw `Hibernate`, it's good to understand what's happening under the hood. Do not get overwhelmed if you don't understand `Hibernate` well for now, it has a complex learning curve, just do your best.
+
+
+## Week 19: Building an E-Commerce Website Backend
+
+Project: Build the backend of an E-Commerce website with REST APIs, Spring Security, PostgreSQL, Spring Data JPA, JWT Authentication, Email verification using SMTP, and write some unit tests.
+
+## Week 20: Introduction to NoSQL Databases
+
+Topics:
+* Introduction to NoSQL Databases
+* MongoDB
+* Mongosh & MongoDBCompass
+* Spring Data MongoDB
+* Collections, Documents, CRUD operations
+
+Resources:
+
+- [Install MongoDB & mongosh on Windows (Amit Thinks)](https://youtu.be/1LiZRYzgM2o?si=isJpU8C-Nk3-NhEE)
+- [Complete MongoDB Tutorial (The Net Ninja)](https://youtube.com/playlist?list=PL4cUxeGkcC9h77dJ-QJlwGlZlTd4ecZOA&si=jOhL8DKF3esJIZmL)
+- [MongoDB in 1 Hour (Bro Code)](https://youtu.be/c2M-rlkkT5o?si=9taMSnuBpjnLA54H)
+- [MongoDB in 30 Minutes (Web Deve Simplified)](https://youtu.be/ofme2o29ngU?si=WsX9BaUFTSDtssP0)
+- [Getting Started with Spring Data MongoDB Documentation](https://spring.io/guides/gs/accessing-data-mongodb)
+- [Getting started with MongoDB and Spring Boot Documentation](https://www.mongodb.com/en-us/resources/products/compatibilities/spring-boot)
+- [MongoDB in Spring Boot Low-Level Tutorial (Telusko)](https://youtu.be/6QnY7Ri_ORw?si=nz5H9eT1YB97WyIC)
+- [MongoDB in Spring Boot Tutorial (Amigoscode) (26:23~)](https://youtu.be/ssj0CGxv60k?si=Oy2txu2KsYq9nYbY)
+- [MongoDB in Spring Boot Tutorial (Programming Techie) (~15:00)](https://youtu.be/GvPhube6Mls?si=Bc6yBEQ8fsZTo2RV)
+
+Task: <br>
+1- Build a simple CRUD application of your choice (task manager, profile manager, books manager, etc) with Spring Data MongoDB. <br>
+2- Implement pagination and sorting in MongoDB queries. <br>
+3- Implement a search feature using MongoDB’s text indexes. <br>
+
+Bonus: Learn about filtering data.
+
+Note: `Spring Data MongoDB` is so close to `Spring Data JPA`, if you are good with `Spring Data JPA`, this week would be easy for you.
+
+
+## Week 21: Introduction to Asynchronous Programming in Spring Boot
+
+Topics:
+* Blocking vs Non-blocking Programming
+* Reactive Programming
+* Parallelism vs Concurrency
+* Threads and Threading
+* CompletableFuture in Java
+* @Async & @EnableAsync Annotations in Spring Boot
+
+Resources:
+
+- [Creating Asynchronous Methods in Spring Boot Documentation](https://spring.io/guides/gs/async-method)
+- [Blocking vs Non-blocking Programming (Zkrallah)](https://medium.com/@muhammad.heshamyt/introduction-to-blocking-vs-non-blocking-programming-e6f7f0c106db)
+- [A Theoretical Guide to Java CompletableFuture (Geekific)](https://youtu.be/xpjvY45Hbyg?si=eMMyf4FUU-C54Vk2)
+- [Java CompletableFuture (Lemubit)](https://youtube.com/playlist?list=PLL-4P1BOZnWwauNPsQ_Q13hVL1LHvhy30&si=T3LafPPJ8OFrltAV)
+- [CompletableFuture in Java Part I (Tech Recipes)](https://youtu.be/2ddCC6R5u0E?si=P6paHAlMTHFbl6UL)
+- [CompletableFuture in Java Part II (Tech Recipes)](https://youtu.be/217XaErWYJE?si=Bn914tBDky5RT9iU)
+- [@Async & @EnableAsync in Spring Boot (Java Techie) (recommended)](https://youtu.be/R_gejlOXR7g?si=urMDXE-yF5P_mkfw)
+- [@Async & @EnableAsync in Spring Boot (Java Techie) (older but good version)](https://youtu.be/3rJBLFA95Io?si=2GMgVtH7BAf4-EqO)
+- [CompletableFuture Guide (GeeksforGeeks)](https://www.geeksforgeeks.org/completablefuture-in-java/)
+- [Parallelism vs Concurrency (GeeksforGeeks)](https://www.geeksforgeeks.org/difference-between-concurrency-and-parallelism/)
+- [CompletableFuture Guide (Baeldung)](https://www.baeldung.com/java-completablefuture)
+
+Task: <br>
+1- Create a method that performs a long-running task asynchronously using CompletableFuture. <br>
+* Apply what you have learned using `runAsync` and `supplyAsync`.
+* Apply what you have learned using `thenAccept`, `thenApply`, and `thenRun`.
+* Run multiple CompletableFuture tasks in parallel and combine their results. <br>
+
+2- Implement a Spring Boot service with an @Async annotated method. <br>
+3- Redo the above task but this time configure a custom thread pool executor. <br>
+
+Bonus: Learn about Java Virtual Threads (please note that this is an advanced topic, just take a quick look).
+
+
+## Week 22: Introduction to Spring WebFlux, Spring Data R2DBC, Reactive Programming in Spring Boot
+
+Topics:
+* Introduction to Spring WebFlux
+* Non-blocking Code in Spring Boot
+* Mono & Flux
+* Spring WebFlux Annotation-based programming model
+* Spring WebFlux Functional programming model
+* Introduction to Spring Data R2DBC
+
+Resources:
+
+- [Web on Reactive Stack Documentation](https://docs.spring.io/spring-framework/reference/web-reactive.html)
+- [Spring WebFlux Documentation](https://docs.spring.io/spring-framework/reference/web/webflux.html)
+- [Spring WebFlux Annotation-based Model Documentation](https://docs.spring.io/spring-framework/reference/web/webflux/controller.html)
+- [Spring WebFlux Functional Model Documentation](https://docs.spring.io/spring-framework/reference/web/webflux-functional.html)
+- [Spring Data R2DBC Documentation](https://docs.spring.io/spring-data/relational/reference/)
+- [What is Spring WebFlux and When to Use It? (Defog)](https://youtu.be/M3jNn3HMeWg?si=aZApNefpQ1IkBglh)
+- [Spring WebFlux (Code With Dilip)](https://youtube.com/playlist?list=PLnXn1AViWyL70R5GuXt_nIDZytYBnvBdd&si=29TxOL3ovga0cqeLv)
+- [Spring WebFlux (Java Techie)](https://youtube.com/playlist?list=PLVz2XdJiJQxyB4Sy29sAnU3Eqz0pvGCkD&si=YHMNg8ZiFU9I_u5k)
+- [Spring Boot WebFlux CRUD Tutorial with R2DBC (Genka)](https://youtu.be/3LxtmlaX3Y0?si=pl0avyME_xwplAsZ)
+- [Spring Boot WebFlux CRUD Tutorial with R2DBC (Bouali)](https://youtu.be/EnUsNVHveyU?si=hW1dvD_vxvrH3q8n)
+- [Spring WebFlux Guide (Baeldung)](https://www.baeldung.com/spring-webflux)
+- [Basic Introduction to Spring WebFlux (GeeksforGeeks)](https://www.geeksforgeeks.org/basic-introduction-to-spring-webflux/)
+
+Task: <br>
+1- Create a Spring WebFlux REST API:
+* Set up a Spring Boot project with WebFlux.
+* Create a simple reactive endpoint that returns a Mono<String> and a Flux<String>.
+* Test the API using Postman. <br>
+
+2- Implement a Reactive CRUD API with WebFlux:
+* Create a Product entity and a corresponding ProductController.
+* Implement CRUD operations using Mono and Flux.
+* Use a reactive database (PostgreSQL + R2DBC for example). <br>
+
+3- Spring WebFlux Functional API:
+* Implement the same CRUD API using the functional programming model (instead of the annotation-based approach). <br>
+
+4- Create a Spring MVC REST API:
+* Recreate the REST API you did in the first task using Spring MVC instead of Spring WebFlux.
+* Add logs in both projects.
+* Observe the thread names handling each request. <br>
+
+Bonus:
+* Learn how to integrate **Spring Security** with WebFlux (`SecurityWebFilterChain`).  
+* Explore `WebClient` as a non-blocking alternative to `RestTemplate`.
+
+Note: <br>
+* WebFlux is not always better than Spring MVC. It’s optimized for high-concurrency and real-time streaming applications.
+* Use Spring WebFlux when you need to handle thousands of concurrent requests with minimal resource usage.
+* If your project does not require reactive programming, sticking with Spring MVC might be a better choice.
+* Spring WebFlux is a big topic, don't get overwhelmed, learn as much as you can and revisit later.
+* Try to map what you've learned so far to WebFlux and explore alternative approaches for future topics to be applicable to Spring WebFlux.
+
+## Week 23: Caching and Introduction to Redis Cache in Spring MVC & Spring WebFlux
+
+Topics:
+* What is caching?
+* Caching in Spring Boot
+* Redis cache
+* Spring Data Redis
+* Spring Data Reactive Redis
+
+Resources:
+
+- [Spring Boot Caching Documentation](https://docs.spring.io/spring-boot/reference/io/caching.html#io.caching)
+- [Spring Data Redis Documentation](https://docs.spring.io/spring-data/redis/reference/)
+- [Caching Simply Explained (Simply Explained)](https://youtu.be/6FyXURRVmR0?si=1_bIHY6C6BvEgMvF)
+- [How Does Caching Work on the Backend (Software Developer Diaries)](https://youtu.be/bP4BeUjNkXc?si=o3cpJj9CqK-c3I3n)
+
+Task:
+
+Bonus:
+
+Note:
+
+
+## Week 24: Real-Time Communication with Sockets & Socket.IO, Streaming with WebRTC Basics.
+
+Topics:
+* Sockets & Socket.IO
+* Real-time communication
+* Introduction to WebRTC
+* Socket.io in Spring Boot
+* SockJS & STOMP in Spring Boot
+
+Resources:
+
+Task:
+
+Bonus:
+
+Note:
+
+
+---
+
+# Level 3: Advanced (Weeks 25–35)
+
+Focus: Scaling, microservices, Docker, deployment, and advanced concepts.
+
+
+---
