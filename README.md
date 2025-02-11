@@ -19,7 +19,7 @@ Created and Prepared By [Mohamed Zkrallah](https://github.com/muhammadzkralla).
 
 # Level 1: Beginner (Weeks 1–10)
 
-Focus: Basics of Java programming, backend fundamentals, Spring Boot, SQL, and database basics.
+Focus:
 * Version control using Git & GitHub.
 * Basic knowledge of HTML, CSS, and JavaScipt for the Front-end.
 * The OSI Model, specially, the application layer and HTTP internals.
