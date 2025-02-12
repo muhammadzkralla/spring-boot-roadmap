@@ -599,27 +599,42 @@ Note: <br>
 * Spring WebFlux is a big topic, don't get overwhelmed, learn as much as you can and revisit later.
 * Try to map what you've learned so far to WebFlux and explore alternative approaches for future topics to be applicable to Spring WebFlux.
 
-## Week 23: Caching and Introduction to Redis Cache in Spring MVC & Spring WebFlux
+## Week 23: Caching and Introduction to Redis Cache in Spring Boot
 
 Topics:
 * What is caching?
 * Caching in Spring Boot
 * Redis cache
 * Spring Data Redis
-* Spring Data Reactive Redis
+* @EnableCaching, @Cacheable, @CacheEvict, and @CachePut annotations
+* Jedis and RedisTemplate
 
 Resources:
 
 - [Spring Boot Caching Documentation](https://docs.spring.io/spring-boot/reference/io/caching.html#io.caching)
 - [Spring Data Redis Documentation](https://docs.spring.io/spring-data/redis/reference/)
+- [Spring Redis Documentation](https://docs.spring.io/spring-data/redis/reference/redis.html)
+- [Spring Data Reactive Redis Guide Documentation](https://spring.io/guides/gs/spring-data-reactive-redis)
 - [Caching Simply Explained (Simply Explained)](https://youtu.be/6FyXURRVmR0?si=1_bIHY6C6BvEgMvF)
 - [How Does Caching Work on the Backend (Software Developer Diaries)](https://youtu.be/bP4BeUjNkXc?si=o3cpJj9CqK-c3I3n)
+- [Spring Data Redis in Spring Boot (Developer Hut)](https://youtu.be/fZilHxyj39Q?si=XTSHrfqYwP_v3D-w)
+- [Redis in Spring Boot Low-Level Tutorial (Java Codeex)](https://youtu.be/IEJJ1tcAZTo?si=IVHsDSH4soXJ6fAc)
+- [Spring Data Redis Part I (Java Techie)](https://youtu.be/oRGqCz8OLcM?si=dEt7-yXp_AXhokNy)
+- [Spring Data Redis Part II (Java Techie)](https://youtu.be/vpe4aDu5ixI?si=uvoaxjaQ7q3VgJd-)
+- [Spring Data Redis (Java Codeex)](https://youtu.be/0a-RlJx09rg?si=KpEW_Ue4tOWk3NWX)
+- [Spring Data Redis Tutorial (Baeldung)](https://www.baeldung.com/spring-data-redis-tutorial)
+- [Spring Data Redis Tutorial (GeeksforGeeks)](https://www.geeksforgeeks.org/spring-boot-caching-with-redis/)
 
-Task:
+Task: <br>
+1- Install and run a Redis server locally. <br>
+2- Integrate Redis into a Spring Boot Application.
+* Create a service class with methods that fetch data (e.g., from a database or an external API).
+* Annotate methods with @Cacheable to cache their results.
+* Use @CacheEvict and @CachePut annotations where appropriate to manage cache entries. <br>
 
-Bonus:
+Bonus: Learn about Spring Data Reactive Redis.
 
-Note:
+Note: I highly recommend reading the final two articles in the resource of this week as well as the guide documentation.
 
 
 ## Week 24: Real-Time Communication with Sockets & Socket.IO, Streaming with WebRTC Basics.
