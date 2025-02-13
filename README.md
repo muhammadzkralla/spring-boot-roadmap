@@ -511,7 +511,57 @@ Note: It's important to understand the difference between `JPA`, `Hibernate`, an
 
 ## Week 19: Building an E-Commerce Website Backend
 
-Project: Build the backend of an E-Commerce website with REST APIs, Spring Security, PostgreSQL, Spring Data JPA, JWT Authentication, Email verification using SMTP, and write some unit tests.
+### **Project Overview**  
+In this project, you will build the backend of an **E-Commerce website** using **Spring Boot**. The backend should expose **REST APIs** for managing users, products, orders, and authentication. You will also implement **security features**, including **JWT authentication** and **email verification**, and enhance the system with pagination, filtration, file uploads, input validation, and exception handling.  
+
+### **Objectives**  
+- Develop a **RESTful API** for an e-commerce platform.  
+- Implement **user authentication and authorization** using **Spring Security & JWT**.  
+- Implement **email verification** using **SMTP**.  
+- Support **product pagination and filtering**.  
+- Enable **file uploads** for product images.  
+- Implement **input validation and exception handling**.  
+- Write **unit tests** for key functionalities.  
+- Use **Spring Data JPA** with **PostgreSQL**.  
+
+### **Entities & Relationships**  
+- **User** (Can be a customer or admin)  
+- **Product** (Sold by the e-commerce platform)  
+- **Category** (Each product belongs to a category)  
+- **Order** (Contains multiple products)  
+- **OrderItem** (A product inside an order, with quantity and price)  
+- **Cart** (Each user has a shopping cart)  
+
+### **Endpoints**  
+
+#### **Authentication & User Management**  
+- Register a new user `POST /auth/register`  
+- Verify email `GET /auth/verify-email?token={token}`  
+- Log in `POST /auth/login`  
+- Refresh JWT token `POST /auth/refresh-token`  
+- Get the current user's profile `GET /users/me`  
+- Update user details `PUT /users/{userId}`  
+
+#### **Product & Category Management**  
+- Create a new product `POST /products`  
+- Retrieve all products with pagination & filtering `GET /products?page={page}&size={size}&category={category}`  
+- Retrieve a product by ID `GET /products/{productId}`  
+- Update a product `PUT /products/{productId}`  
+- Delete a product `DELETE /products/{productId}`  
+- Upload product images `POST /products/{productId}/upload-image`  
+- Create a new category `POST /categories`  
+- Retrieve all categories `GET /categories`  
+
+#### **Shopping Cart & Order Management**  
+- Add a product to cart `POST /cart/{userId}/add/{productId}`  
+- View cart items `GET /cart/{userId}`  
+- Remove a product from cart `DELETE /cart/{userId}/remove/{productId}`  
+- Place an order `POST /orders/{userId}/checkout`  
+- Retrieve all orders of a user `GET /orders/{userId}`  
+- Retrieve order details `GET /orders/{orderId}`
+
+Bonus: Create a simple front-end that uses your API.
+
 
 ## Week 20: Introduction to NoSQL Databases
 
