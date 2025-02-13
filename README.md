@@ -244,6 +244,31 @@ Bonus: Learn how to hot-reload a Spring Boot project.
 
 Project: Build a Student Management System with REST APIs and PostgreSQL.
 
+### **Objectives**
+- Build a RESTful API for managing students.
+- Implement the `Student` and `Course` entities.
+- Implement a **one-to-many** relationship between Students and Books.
+- Implement a **many-to-many** relationship between Students and Courses (Bonus).
+- Use **Spring Boot** with **Spring Data JPA** and **PostgreSQL**.
+
+### **Endpoints**
+- Create a new student `POST /students`
+- Retrieve all students `GET /students`
+- Retrieve a student by ID `GET /students/{id}`
+- Update a student's details `PUT /students/{id}`
+- Delete a student `DELETE /students/{id}`
+- Same thing for books and courses.
+- Assign a book to a student `POST /students/{studentId}/books/{bookId}`
+- Retrieve the student who owns a book `GET /books/{bookId}/owner`
+- Retrieve all books of a student `GET /students/{studentId}/books`
+- Remove a book from a student `DELETE /students/{studentId}/books/{bookId}`
+- Enroll a student in a course `POST /students/{studentId}/courses/{courseId}`
+- Retrieve all students in a course `GET /courses/{courseId}/students`
+- Retrieve all the courses of a student `GET /students/{studentId}/courses`
+- Remove a student from a course `DELETE /students/{studentId}/courses/{courseId}`
+
+Note: When a book or course is deleted, its association with any students should also be removed.
+
 
 ---
 
