@@ -771,9 +771,67 @@ Note: <br>
 * Many open-source WebSocket implementations are available, with `Socket.io` being the most common. However, some companies use alternatives like `Pusher` or `STOMP`. For brevity, this week’s resources focus on `Socket.io`, but it’s good to be aware of other implementations you might encounter in different environments.
 
 
-## Week 25: Project 
+## Week 25: Building a Real-Time Chat Application
 
-Project:
+### **Project Overview**
+In this project, you will build a **real-time chat application** using **Spring WebFlux** and **MongoDB**. The application will support **private messaging** between users, **real-time communication** using **WebSockets (Socket.IO)**, and **persistent chat history storage** in MongoDB.
+
+---
+
+### **Objectives**
+- Develop a **fully reactive** backend using **Spring WebFlux**.
+- Use **MongoDB** as a NoSQL database for **storing users, messages, and conversations**.
+- Implement **WebSockets** for **real-time messaging**.
+- Implement **user authentication and authorization** using **Spring Security & JWT**.
+- Implement **email verification** using **SMTP**.
+- Provide **REST APIs** for **user management** and **chat history retrieval**.
+- Implement **input validation and exception handling**.
+- Write **unit tests** for key functionalities.
+
+---
+
+### **Entities & Relationships**
+
+#### **User (`users` collection)**
+- `id`, `username`, `email`, `password`, `profilePicture`, `status (online/offline)`.
+- Users can **send and receive messages**.
+- **Email verification** required before accessing chat.
+- Feel free to add any additional field.
+
+#### **Message (`messages` collection)**
+- `id`, `senderId`, `receiverId`, `content`, `timestamp`.
+- Messages are stored **persistently** in MongoDB.
+- Feel free to add any additional field.
+
+#### **Conversation (`conversations` collection)**
+- `id`, `participants[]`, `lastMessage`, `lastUpdated`.
+- Stores **user chat sessions** for easy retrieval.
+- Feel free to add any additional field.
+
+---
+
+### **Endpoints**
+
+#### **User Management**
+- **Register a new user** → `POST /users/register`
+- **Verify email** → `GET /users/verify?token={token}`
+- **Login a user** → `POST /users/login`
+- **Update user profile** → `PUT /users/{userId}`
+- **Get user details** → `GET /users/{userId}`
+- Add any missing endpoint.
+
+#### **Chat Management (REST APIs)**
+- **Retrieve chat history with a user** → `GET /chats/{userId}`
+- **Delete a conversation** → `DELETE /chats/{userId}`
+- Add any missing endpoint.
+
+#### **Real-Time Chat (WebSockets - Socket.IO)**
+- **Connect to the chat** → `WS /chat/connect` (JWT authentication required)
+- **Send a message** → `WS /chat/send`
+- **Receive a message** → `WS /chat/receive`
+- **Typing indicator** → `WS /chat/typing`
+- **Mark message as read** → `WS /chat/status`
+- Add any missing endpoint.
 
 
 ---
