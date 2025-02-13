@@ -796,17 +796,17 @@ In this project, you will build a **real-time chat application** using **Spring 
 - `id`, `username`, `email`, `password`, `profilePicture`, `status (online/offline)`.
 - Users can **send and receive messages**.
 - **Email verification** required before accessing chat.
-- Feel free to add any additional field.
+- Feel free to add any additional fields.
 
 #### **Message (`messages` collection)**
 - `id`, `senderId`, `receiverId`, `content`, `timestamp`.
 - Messages are stored **persistently** in MongoDB.
-- Feel free to add any additional field.
+- Feel free to add any additional fields.
 
 #### **Conversation (`conversations` collection)**
 - `id`, `participants[]`, `lastMessage`, `lastUpdated`.
 - Stores **user chat sessions** for easy retrieval.
-- Feel free to add any additional field.
+- Feel free to add any additional fields.
 
 ---
 
@@ -818,12 +818,12 @@ In this project, you will build a **real-time chat application** using **Spring 
 - **Login a user** → `POST /users/login`
 - **Update user profile** → `PUT /users/{userId}`
 - **Get user details** → `GET /users/{userId}`
-- Add any missing endpoint.
+- Add any missing endpoints.
 
 #### **Chat Management (REST APIs)**
 - **Retrieve chat history with a user** → `GET /chats/{userId}`
 - **Delete a conversation** → `DELETE /chats/{userId}`
-- Add any missing endpoint.
+- Add any missing endpoints.
 
 #### **Real-Time Chat (WebSockets - Socket.IO)**
 - **Connect to the chat** → `WS /chat/connect` (JWT authentication required)
@@ -831,7 +831,7 @@ In this project, you will build a **real-time chat application** using **Spring 
 - **Receive a message** → `WS /chat/receive`
 - **Typing indicator** → `WS /chat/typing`
 - **Mark message as read** → `WS /chat/status`
-- Add any missing endpoint.
+- Add any missing endpoints.
 
 
 ---
