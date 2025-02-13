@@ -626,38 +626,68 @@ Resources:
 - [Spring Data Redis Tutorial (GeeksforGeeks)](https://www.geeksforgeeks.org/spring-boot-caching-with-redis/)
 
 Task: <br>
-1- Install and run a Redis server locally. <br>
-2- Integrate Redis into a Spring Boot Application.
+1- Install and run a Redis server locally.
+2- Integrate Redis into a Spring Boot Application:
 * Create a service class with methods that fetch data (e.g., from a database or an external API).
 * Annotate methods with @Cacheable to cache their results.
 * Use @CacheEvict and @CachePut annotations where appropriate to manage cache entries. <br>
 
 Bonus: Learn about Spring Data Reactive Redis.
 
-Note: I highly recommend reading the final two articles in the resource of this week as well as the guide documentation.
+Note: I highly recommend reading the final two articles in the resources of this week as well as the guide documentation.
 
 
 ## Week 24: Real-Time Communication with Sockets & Socket.IO, Streaming with WebRTC Basics.
 
 Topics:
-* Sockets & Socket.IO
+* Raw Sockets, WebSocket, and Socket.IO
 * Real-time communication
 * Introduction to WebRTC
+* ZegoCloud SDK
 * Socket.io in Spring Boot
 * SockJS & STOMP in Spring Boot
 
 Resources:
 
-Task:
+- [Introduction to Raw Socket Programming and Implementing the Simplest Chat Service (Zkrallah)](https://medium.com/@muhammad.heshamyt/introduction-to-raw-socket-programming-and-implementing-the-simplest-chat-service-java-17a014703f5fv)
+- [Socket.io Documentation](https://socket.io/docs/v4/)
+- [Socket.io Wiki Documentation](https://github.com/mrniko/netty-socketio/wiki)
+- [Using WebSocket to Build an Interactive Web Application Documentation](https://spring.io/guides/gs/messaging-stomp-websocket)
+- [WebSockets Tutorial with Socket.IO (FreeCodeCamp.org)](https://youtu.be/CzcfeL7ymbU?si=Se_M5mHET7ythHYl)
+- [WebSocket Tutorial with Spring Boot (Bouali)](https://youtu.be/7T-HnTE6v64?si=Wv4QuUHmgUfpp6Y8)
+- [How Does WebRTC Work? (heyletscode)](https://youtu.be/SsN4gl_wV_8?si=tmaXywzUXuGS0AUA)
+- [WebRTC in 100 Seconds and Beyond (Fireship)](https://youtu.be/WmR9IMUD_CY?si=6MHOQd3pH17g6Euv)
+- [Building a Full Video Call App with ZegoCloud (Bouali)](https://youtu.be/k9WSsYA7-yY?si=qr8D_uVmhbNooPPh)
+- [WebRTC Crash Course in JavaScipt (Hussein Nasser)](https://www.youtube.com/watch?v=FExZvpVvYxA)
+- [Spring Boot Netty Socket.IO Example (medium)](https://medium.com/folksdev/spring-boot-netty-socket-io-example-3f21fcc1147d)
+- [Spring Boot - Web Socket (GeeksforGeeks)](https://www.geeksforgeeks.org/spring-boot-web-socket/)
+- [WebRTC API (MDN)](https://developer.mozilla.org/en-US/docs/Web/API/WebRTC_API)
+- [Guide to WebRTC (Baeldung)](https://www.baeldung.com/webrtc)
+- [Introduction to WebRTC (GeeksforGeeks)](https://www.geeksforgeeks.org/introduction-to-webrtc/)
 
-Bonus:
+Task: <br>
+1- Implement a Real-Time Chat Application:
+* Set up a Spring Boot project.
+* Integrate Socket.IO to handle real-time communication.
+* Create a simple chat interface where multiple users can send and receive messages instantly.
+* Test the application with a basic front-end or using postman to ensure messages are transmitted in real-time. <br>
 
-Note:
+2- Explore WebRTC Basics:
+* Understand the fundamentals of WebRTC and its use cases.
+* Set up a basic peer-to-peer connection between two clients using WebRTC.
+* Transmit simple data (e.g., text messages) between the peers. <br>
+
+Bonus: Learn a little about message queues.
+
+Note: <br>
+* In most chat services, a cloud messaging service is used to initiate the socket connection programmatically when the receiver is inactive at the moment the sender sends a message. We will discuss cloud messaging services in detail later in the `Firebase` week in the advanced level.
+* There aren’t many good resources on implementing `WebRTC` in Spring Boot without using `ZegoCloud`, so feel free to use your preferred LLM or external resources to learn this part. If you find any useful implementations, consider contributing them to the roadmap.
+* Many open-source WebSocket implementations are available, with `Socket.io` being the most common. However, some companies use alternatives like `Pusher` or `STOMP`. For brevity, this week’s resources focus on `Socket.io`, but it’s good to be aware of other implementations you might encounter in different environments.
 
 
-## Week 25: Building 
+## Week 25: Project 
 
-Project: Build
+Project:
 
 
 ---
