@@ -248,7 +248,7 @@ Project: Build a Student Management System with REST APIs and PostgreSQL.
 
 # Level 2: Intermediate (Weeks 11–25)
 
-Focus: Deepen Spring Boot knowledge, explore asynchronous programming, Spring Security, NoSQL databases, and real-time communication.
+Focus:
 * Spring Core concepts like IoC, DI, AOP, Resources, etc.
 * Input validation, error handling, and testing (unit & integration).
 * Middlewares and Spring Security.
