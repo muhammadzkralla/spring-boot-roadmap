@@ -13,7 +13,7 @@ Created and Prepared By [Mohamed Zkrallah](https://github.com/muhammadzkralla).
 - AI-Assisted Learning: Feel free to use AI to explore topics further but avoid relying on it to complete tasks or write code for you.
 - Time Interval: Some topics can not be finished in just one week, try to learn as much as you can and get back later.
 - Self-Learning & Research: As you progress to the advanced level, expect to do more self-learning and independent research. Not everything will be spoon-fed with resources. Developing the ability to learn on your own, read documentation, and experiment with implementations is crucial.
-- Quick Tip: I beleive in learning by building. Build what you want to learn and learn from what you build. Do not just study theory, but implement what you have learned in a project or even a simple program.
+- Quick Tip: I believe in learning by building. Build what you want to learn and learn from what you build. Do not just study theory, but implement what you have learned in a project or even a simple program.
 
 
 ---
