@@ -729,6 +729,7 @@ Note: <br>
 * Spring WebFlux is a big topic, don't get overwhelmed, learn as much as you can and revisit later.
 * Try to map what you've learned so far to WebFlux and explore alternative approaches for future topics to be applicable to Spring WebFlux.
 
+
 ## Week 23: Caching and Introduction to Redis Cache in Spring Boot
 
 Topics:
@@ -882,7 +883,75 @@ In this project, you will build a **real-time chat application** using **Spring 
 
 # Level 3: Advanced (Weeks 26–35)
 
-Focus: Scaling, microservices, Docker, deployment, and advanced concepts.
+Focus:
+* Introduction to payment Gateways.
+* Firebase RTDB, Cloud Messaging, cloud Storage, Firestore, Authentication, and more.
+* More SQL and NoSQL and introduction to JDBC and more about R2DBC.
+* GraphQL and task scheduling.
+* Introduction to Deployment and Docker.
+* Introduction to Message queues.
+* Introduction to Microservices architecture.
 
 
 ---
+
+## Week 26: Payments and Stripe Payment Gateway
+
+Topics:
+* Payments in Spring Boot
+* Stripe payment gateway
+* Paypal payment
+
+Resources:
+
+- [Stripe Official Documentation](https://stripe.com/docs)
+- [Stripe Payment Gateway Integration with Spring Boot (Java Techie)](https://youtu.be/BczS-wbxgp4?si=22MPN7-1CcD6WvhP)
+- [PayPal Integration with Spring Boot (Bouali)](https://youtu.be/_eTcseS410E?si=qZdhVtkuxg3AS3dM)
+
+Task: <br>
+1- Set up a Stripe account and create API keys. <br>
+2- Integrate Stripe in a Spring Boot application to process payments. <br>
+3- Implement an endpoint for handling one-time payments. <br>
+
+Bonus: Learn about other payment gateways and SDKs like Fawry or Paymob for example.
+
+Note: Stripe is one of the most widely used payment gateways, but it's not the only option available. Companies can choose any payment gateway that best suits their needs. This week focuses specifically on Stripe due to its popularity and extensive documentation. Feel free to learn more about other payment gateways.
+
+
+## Week 27: Building GraphQL Services
+
+Topics:
+* Introduction to GraphQL and its advantages over REST.
+* Setting up GraphQL in a Spring Boot application.
+* Defining GraphQL schemas, queries, and mutations.
+
+Resources:
+
+- [Spring for GraphQL Documentation](https://docs.spring.io/spring-graphql/reference/index.html)
+- [Spring for GraphQL Documentation](https://docs.spring.io/spring-boot/reference/web/spring-graphql.html)
+- [Building a GraphQL Service Documentation](https://spring.io/guides/gs/graphql-server)
+- [Observing GraphQL in action Documentation](https://spring.io/guides/topicals/observing-graphql-in-action)
+- [What Is GraphQL? REST vs. GraphQL (ByteByteGo)](https://youtu.be/yWzKJPw_VzM?si=Fi7ELyuHuwW2afyp)
+- [GraphQL Explained in 100 Seconds (Fireship)](https://youtu.be/eIQh02xuVw4?si=drV4aeoBSM5Eq6Vx)
+- [Introduction to Spring GraphQL with Spring Boot (Spring Academy)](https://youtu.be/atA2OovQBic?si=bz1j4z5ZU6SuXDfn)
+- [Spring Boot and GraphQL Tutorial (Amigoscode)](https://youtu.be/uNB2N_w_ypo?si=QxaNVf5L6mLquGhs)
+- [Mastering GraphQL & Spring Boot APIs (Java Techie)](https://youtu.be/GJc36OKFQ_M?si=uBdNCPauh4LBsse_)
+- [Master Graphql with Spring Boot (Daily Code Buffer)](https://youtu.be/eD-1KTK7fGc?si=xmZWX2yAcAB9EEA6)
+- [Spring Boot GraphQL Tutorial (Dan Vega)](https://youtu.be/J8vC8RflPPY?si=HycTmHFz1-FCBJVS)
+- [GraphQL Spring Boot (Microservices Lab)](https://youtube.com/playlist?list=PL0mgqHWxwZciKccW2CuDX6NNMOZ7ONaH4&si=Q8wecr7XpLXwW-Cp)
+- [Getting Started with GraphQL (Baeldung)](https://www.baeldung.com/spring-graphql)
+- [Integrate and Call a GraphQL API in a Spring Boot (GeeksforGeeks)](https://www.geeksforgeeks.org/how-to-integrate-and-call-a-graphql-api-in-a-java-spring-boot-application/)
+
+Task: <br>
+1. Set up a GraphQL server using Spring Boot and Spring GraphQL. <br>
+2. Define GraphQL schemas for a simple application (Users and Posts for example). <br>
+3. Implement queries to fetch data and mutations to modify data. <br>
+4. Integrate Spring Data JPA to fetch data from a relational database. <br>
+5. Implement error handling for invalid requests. <br>
+6. Test GraphQL APIs using GraphiQL or Postman. <br>
+
+Bonus: Learn how to avoid the `N + 1` problem in Graphql and relational databases.
+
+Note: <br>
+* I recommend watching Spring Academy's, Amigoscode's, and Java Techie's videos for integrating Graphql in Spring Boot.
+* Most of the video resources mentioned above apply on the same example but each video might introduce a new idea or tool that might not have been mentioned in the the other videos.
