@@ -921,14 +921,14 @@ Note: Stripe is one of the most widely used payment gateways, but it's not the o
 ## Week 27: Building GraphQL Services
 
 Topics:
-* Introduction to GraphQL and its advantages over REST.
-* Setting up GraphQL in a Spring Boot application.
-* Defining GraphQL schemas, queries, and mutations.
+* Graphql vs REST
+* Graphql in Spring Boot
+* GraphQL schemas, queries, and mutations
 
 Resources:
 
 - [Spring for GraphQL Documentation](https://docs.spring.io/spring-graphql/reference/index.html)
-- [Spring for GraphQL Documentation](https://docs.spring.io/spring-boot/reference/web/spring-graphql.html)
+- [Spring Boot for GraphQL Documentation](https://docs.spring.io/spring-boot/reference/web/spring-graphql.html)
 - [Building a GraphQL Service Documentation](https://spring.io/guides/gs/graphql-server)
 - [Observing GraphQL in action Documentation](https://spring.io/guides/topicals/observing-graphql-in-action)
 - [What Is GraphQL? REST vs. GraphQL (ByteByteGo)](https://youtu.be/yWzKJPw_VzM?si=Fi7ELyuHuwW2afyp)
@@ -955,3 +955,31 @@ Bonus: Learn how to avoid the `N + 1` problem in Graphql and relational database
 Note: <br>
 * I recommend watching Spring Academy's, Amigoscode's, and Java Techie's videos for integrating Graphql in Spring Boot.
 * Most of the video resources mentioned above apply on the same example but each video might introduce a new idea or tool that might not have been mentioned in the the other videos.
+
+
+# Week 28: Introduction to Firebase Services
+
+Topics:
+* Firebase as a BAAS.
+* Firebase Cloud Messaging (FCM)
+* Firebase Cloud Messaging
+* Firebase Authentication
+* Firebase Firestore
+* Firebase Real-Time Database (RTDB)
+
+Resources:
+
+- [Firebase Cloud Messaging Documentation](https://firebase.google.com/docs/cloud-messaging)
+- [Firebase Cloud Storage Documentation](https://firebase.google.com/docs/storage)
+- [Firebase Authentication Documentation](https://firebase.google.com/docs/auth)
+- [Firebase Cloud Firestore Documentation](https://firebase.google.com/docs/firestore)
+- [Firebase Real-Time Database Documentation](https://firebase.google.com/docs/database)
+- [Firebase in 100 Seconds (Fireship)](https://youtu.be/vAoB4VbhRzM?si=Tm72eRF_RPg1zXoW)
+- [Spring Boot Firebase Notifications with FCM (Ulter)](https://youtu.be/pbAoRzU7OXY?si=0PUGbt1JNIg9rrZU)
+- [File uploading with Spring Boot & FCM (medium)](https://medium.com/@poojithairosha/image-uploading-with-spring-boot-firebase-cloud-storage-e5ef2fbf942d)
+
+Task:
+
+Bonus:
+
+Note:
