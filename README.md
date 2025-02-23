@@ -962,7 +962,7 @@ Note: <br>
 Topics:
 * Firebase as a BAAS.
 * Firebase Cloud Messaging (FCM)
-* Firebase Cloud Messaging
+* Firebase Cloud Storage
 * Firebase Authentication
 * Firebase Firestore
 * Firebase Real-Time Database (RTDB)
@@ -976,10 +976,20 @@ Resources:
 - [Firebase Real-Time Database Documentation](https://firebase.google.com/docs/database)
 - [Firebase in 100 Seconds (Fireship)](https://youtu.be/vAoB4VbhRzM?si=Tm72eRF_RPg1zXoW)
 - [Spring Boot Firebase Notifications with FCM (Ulter)](https://youtu.be/pbAoRzU7OXY?si=0PUGbt1JNIg9rrZU)
+- [Spring Boot CRUD operations (TheCodeStorm)](https://youtu.be/_qeF0P4Mhc4?si=Kltyx5rGGzBcGxHs)
+- [Ultimate Guide to Firebase Storage Integration (IOCODES)](https://youtu.be/TkoKdO5Knhk?si=j7ZZExy1FQgnAA3j)
+- [Connect Spring Boot REST API with Firebase (Techno Town Techie)](https://youtu.be/auFJziKIVnM?si=wPai9Gjl2CE_mPYh)
+- [Spring Boot CRUD Application (ProgrammingKnowledge)](https://youtube.com/playlist?list=PLS1QulWo1RIYMQcf1y2bqQZbpXLzpKDUL&si=AuTL2sqykNpUD8zb)
 - [File uploading with Spring Boot & FCM (medium)](https://medium.com/@poojithairosha/image-uploading-with-spring-boot-firebase-cloud-storage-e5ef2fbf942d)
 
-Task:
+Task: <br>
+1- Modify the file uploading service you created before or create a new one that uses Firebase Storage instead of local storage. <br>
+2- Create a Firebase Cloud Messaging (FCM) service that sends push notifications tozz users. <br>
+3- Use Firebase Firebase or Firebase RTDB as a database in a simple CRUD application. <br>
 
 Bonus:
 
-Note:
+Note: <br>
+* I recommend reading the Medium article on Firebase Storage for the file uploading service.  
+* Ulter's video provides a great guide on setting up Firebase FCM for push notifications.  
+* There aren't many video resources for Firebase RTDB, so rely on the official documentation or explore other resources online.
