@@ -957,7 +957,7 @@ Note: <br>
 * Most of the video resources mentioned above apply on the same example but each video might introduce a new idea or tool that might not have been mentioned in the the other videos.
 
 
-# Week 28: Introduction to Firebase Services
+## Week 28: Introduction to Firebase Services
 
 Topics:
 * Firebase as a BAAS.
