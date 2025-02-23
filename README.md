@@ -987,7 +987,7 @@ Task: <br>
 2- Create a Firebase Cloud Messaging (FCM) service that sends push notifications tozz users. <br>
 3- Use Firebase Firebase or Firebase RTDB as a database in a simple CRUD application. <br>
 
-Bonus:
+Bonus: Explore other Backend-as-a-Service (BaaS) providers like Supabase and compare them with Firebase. Additionally, check out alternative cloud service providers to understand their offerings.
 
 Note: <br>
 * I recommend reading the Medium article on Firebase Storage for the file uploading service.  
