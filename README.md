@@ -993,3 +993,33 @@ Note: <br>
 * I recommend reading the Medium article on Firebase Storage for the file uploading service.  
 * Ulter's video provides a great guide on setting up Firebase FCM for push notifications.  
 * There aren't many video resources for Firebase RTDB, so rely on the official documentation or explore other resources online.
+
+## Week 29: Task Scheduling
+
+Topics:
+* Task Scheduling
+* @Scheduled and @EnableScheduling annotations
+* cron
+* Fixed-rate vs. fixed-delay scheduling
+* Handling asynchronous scheduled tasks
+
+Resources:
+
+- [Spring Task Scheduling Documentation](https://docs.spring.io/spring-framework/reference/integration/scheduling.html)
+- [Spring Scheduling Tasks Documentation](https://spring.io/guides/gs/scheduling-tasks)
+- [Spring Boot Quartz Scheduler Documentation](https://docs.spring.io/spring-boot/reference/io/quartz.html)
+- [Automate Like a PRO: How to Use Scheduled in Spring Boot (Devtiro)](https://youtu.be/YhZP6tSDXig?si=roMJLuRFarc_xjsA)
+- [Spring Boot Scheduler (Techno Town Techie)](https://youtu.be/l-40aP9jCok?si=NHu8_KQcDUxFYKEa)
+- [The @Scheduled Annotation in Spring (Baeldung)](https://www.baeldung.com/spring-scheduled-tasks)
+
+Task: <br>
+1- Implement a basic scheduled task that runs every 10 seconds using @Scheduled. <br>
+2- Modify the task to use a cron expression to execute at a specific time of day. <br>
+3- Create a dynamic scheduling system, where tasks can be enabled/disabled based on application settings. <br>
+4- Implement an asynchronous scheduled task using @Async. <br>
+
+Bonus: Learn about the Decorator Design Pattern.
+
+Note: If your application requires more control, consider Quartz Scheduler, which supports distributed job scheduling.
+
+
