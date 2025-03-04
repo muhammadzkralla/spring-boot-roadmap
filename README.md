@@ -1023,3 +1023,43 @@ Bonus: Learn about the Decorator Design Pattern.
 Note: If your application requires more control, consider Quartz Scheduler, which supports distributed job scheduling.
 
 
+## Week 30: More SQL Database, Spring JDBC, More Spring R2DBC.
+
+Topics:
+* JDBC
+* Spring Data JDBC
+* Spring Data R2DBC
+* SQL database
+* Database migrations
+* Transactions
+* Triggers and Indexes
+
+Resources:
+
+- [Spring Data JDBC Documentation](https://docs.spring.io/spring-data/relational/reference/)
+- [Spring JDBC Documentation](https://docs.spring.io/spring-framework/reference/data-access/jdbc.html)
+- [Spring Data Access with R2DBC Documentation](https://docs.spring.io/spring-framework/reference/data-access/r2dbc.html)
+- [Spring Boot SQL Databases Documentation](https://docs.spring.io/spring-boot/reference/data/sql.html)
+- [Java Database Connectivity | JDBC (Telusko)](https://youtu.be/7v2OnUti2eM?si=driNdMEJmHHfNvLW)
+- [Spring Boot JDBC using JdbcTemplate (Telusko)](https://youtu.be/Nc9NmS5kEjU?si=wwIIX40Fhv25LDZo)
+- [JDBC Client and Spring Data JDBC (Dan Vega)](https://youtu.be/qLDrfebeXS0?si=ZEDAItNrrB4mawpb)
+- [Spring Data JDBC Tutorial (Dan Vega)](https://youtu.be/l_T0nQNbFiM?si=yruoqw21NtV_dMtD)
+- [Database Migrations with Flyway in Spring Boot (Devtiro)](https://youtu.be/IuKXPx3WLbg?si=p-jdWmztyO3uI_Br)
+- [Database Transactions in Spring Boot (Devtiro)](https://youtu.be/qhz27TZYsYI?si=So2dAdTybzNsQvAJ)
+- [Spring JDBC (Baeldung)](https://www.baeldung.com/spring-jdbc-jdbctemplate)
+- [Spring – JDBC Template (GeeksforGeeks)](https://www.geeksforgeeks.org/spring-jdbc-template/)
+- [Defining Indexes in JPA (Baeldung)](https://www.baeldung.com/jpa-indexes)
+
+Task: <br>
+1- Implement CRUD Operations using Spring JDBC (JdbcTemplate). <br>
+2- Create one or two database migrations to an old database using Flyway. <br>
+3- Solve More SQL questions on Leetcode and HackerRank. <br>
+
+Bonus: Learn about recursive queries and window functions in SQL.
+
+Note: <br>
+* The "Java Database Connectivity | JDBC (Telusko)" video is for pure JDBC without Spring Boot. It helps to understand JDBC fundamentals.
+* You will need to use JDBC instead of Spring Data JPA in some cases like: avoiding ORM overhead for high-performance applications, using raw SQL queries efficiently without automatic entity mapping (very useful in microservices), and when working with legacy databases that don’t fit well into JPA’s entity model
+
+
+
