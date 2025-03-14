@@ -609,6 +609,7 @@ Bonus: Create a simple front-end that uses your API.
 
 Topics:
 * Introduction to NoSQL Databases
+* Spring Data MongoDB
 * MongoDB
 * Mongosh & MongoDBCompass
 * Spring Data MongoDB
@@ -616,13 +617,13 @@ Topics:
 
 Resources:
 
+- [Getting Started with Spring Data MongoDB Documentation](https://spring.io/guides/gs/accessing-data-mongodb)
+- [Getting started with MongoDB and Spring Boot Documentation](https://www.mongodb.com/en-us/resources/products/compatibilities/spring-boot)
+- [Spring Data JPA Documentation](https://docs.spring.io/spring-data/mongodb/reference/)
 - [Install MongoDB & mongosh on Windows (Amit Thinks)](https://youtu.be/1LiZRYzgM2o?si=isJpU8C-Nk3-NhEE)
 - [Complete MongoDB Tutorial (The Net Ninja)](https://youtube.com/playlist?list=PL4cUxeGkcC9h77dJ-QJlwGlZlTd4ecZOA&si=jOhL8DKF3esJIZmL)
 - [MongoDB in 1 Hour (Bro Code)](https://youtu.be/c2M-rlkkT5o?si=9taMSnuBpjnLA54H)
 - [MongoDB in 30 Minutes (Web Deve Simplified)](https://youtu.be/ofme2o29ngU?si=WsX9BaUFTSDtssP0)
-- [Getting Started with Spring Data MongoDB Documentation](https://spring.io/guides/gs/accessing-data-mongodb)
-- [Getting started with MongoDB and Spring Boot Documentation](https://www.mongodb.com/en-us/resources/products/compatibilities/spring-boot)
-- [Spring Data JPA Documentation](https://docs.spring.io/spring-data/mongodb/reference/)
 - [MongoDB in Spring Boot Low-Level Tutorial (Telusko)](https://youtu.be/6QnY7Ri_ORw?si=nz5H9eT1YB97WyIC)
 - [MongoDB in Spring Boot Tutorial (Amigoscode) (26:23~)](https://youtu.be/ssj0CGxv60k?si=Oy2txu2KsYq9nYbY)
 - [MongoDB in Spring Boot Tutorial (Programming Techie) (~15:00)](https://youtu.be/GvPhube6Mls?si=Bc6yBEQ8fsZTo2RV)
@@ -1062,4 +1063,22 @@ Note: <br>
 * You will need to use JDBC instead of Spring Data JPA in some cases like: avoiding ORM overhead for high-performance applications, using raw SQL queries efficiently without automatic entity mapping (very useful in microservices), and when working with legacy databases that don’t fit well into JPA’s entity model
 
 
+## Week 31: More NoSQL Database and Spring Data MongoDB.
 
+Topics:
+* Advanced MongoDB queries (aggregation, indexing, transactions)
+* Performance optimization with MongoDB
+* Advanced Spring Data MongoDB features (custom queries, projections, auditing)
+
+Resources:
+
+- [Getting Started with Spring Data MongoDB Documentation](https://spring.io/guides/gs/accessing-data-mongodb)
+- [Getting started with MongoDB and Spring Boot Documentation](https://www.mongodb.com/en-us/resources/products/compatibilities/spring-boot)
+- [Spring Data JPA Documentation](https://docs.spring.io/spring-data/mongodb/reference/)
+- [MongoDB Documentation](https://www.mongodb.com/docs/manual/)
+
+Task:
+
+Bonus:
+
+Note:
