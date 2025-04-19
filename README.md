@@ -622,6 +622,7 @@ Resources:
 - [Spring Data JPA Documentation](https://docs.spring.io/spring-data/mongodb/reference/)
 - [Install MongoDB & mongosh on Windows (Amit Thinks)](https://youtu.be/1LiZRYzgM2o?si=isJpU8C-Nk3-NhEE)
 - [Complete MongoDB Tutorial (The Net Ninja)](https://youtube.com/playlist?list=PL4cUxeGkcC9h77dJ-QJlwGlZlTd4ecZOA&si=jOhL8DKF3esJIZmL)
+- [Switch to NoSQL, move FASTER (Devtiro)](https://youtu.be/nmOYRdOvagU?si=TUBNqpr6rl7vPrnM)
 - [MongoDB in 1 Hour (Bro Code)](https://youtu.be/c2M-rlkkT5o?si=9taMSnuBpjnLA54H)
 - [MongoDB in 30 Minutes (Web Deve Simplified)](https://youtu.be/ofme2o29ngU?si=WsX9BaUFTSDtssP0)
 - [MongoDB in Spring Boot Low-Level Tutorial (Telusko)](https://youtu.be/6QnY7Ri_ORw?si=nz5H9eT1YB97WyIC)
@@ -1076,9 +1077,25 @@ Resources:
 - [Getting started with MongoDB and Spring Boot Documentation](https://www.mongodb.com/en-us/resources/products/compatibilities/spring-boot)
 - [Spring Data JPA Documentation](https://docs.spring.io/spring-data/mongodb/reference/)
 - [MongoDB Documentation](https://www.mongodb.com/docs/manual/)
+- [MongoDB in 1 Hour (Bro Code)](https://youtu.be/c2M-rlkkT5o?si=9taMSnuBpjnLA54H)
+- [MongoDB in 30 Minutes (Web Deve Simplified)](https://youtu.be/ofme2o29ngU?si=WsX9BaUFTSDtssP0)
+- [MongoDB in Spring Boot Low-Level Tutorial (Telusko)](https://youtu.be/6QnY7Ri_ORw?si=nz5H9eT1YB97WyIC)
+- [MongoDB in Spring Boot Tutorial (Amigoscode) (26:23~)](https://youtu.be/ssj0CGxv60k?si=Oy2txu2KsYq9nYbY)
+- [MongoDB in Spring Boot Tutorial (Programming Techie) (~15:00)](https://youtu.be/GvPhube6Mls?si=Bc6yBEQ8fsZTo2RV)
+- [Switch to NoSQL, move FASTER (Devtiro)](https://youtu.be/nmOYRdOvagU?si=TUBNqpr6rl7vPrnM)
 
-Task:
 
-Bonus:
+Task: <br>
+1- Create a MongoDB-backed Spring Boot application using Spring Data MongoDB. <br>
+2- Implement advanced CRUD operations with support for:
+* Custom queries using @Query
+* Pagination and Sorting
+* Transactions
+* Indexes <br>
 
-Note:
+2- Use the Aggregation Framework to build advanced reporting queries (e.g. total sales per day, top products, etc.) <br>
+3- Add indexes for optimal query performance (e.g. on email, creation date). <br>
+
+Bonus: Explore other NoSQL databases like Cassandra, Redis, and CouchDB.
+
+
