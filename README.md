@@ -1099,3 +1099,33 @@ Task: <br>
 Bonus: Explore other NoSQL databases like Cassandra, Redis, and CouchDB.
 
 
+## Week 32: Docker and Deployment.
+
+Topics:
+* Virtualization vs Containarization
+* Docker and Docker Compose
+* Deployment
+
+Resources:
+
+- [Docker Documentation](https://docs.docker.com/)
+- [Docker in 100 Seconds (Fireship)](https://youtu.be/Gjnup-PuquQ?si=ksebJNQlew7dHRJA)
+- [Docker Containers 101 (NetworkChuck)](https://youtu.be/eGz9DS-aIeY?si=SIPbzhvcsZlWy3rR)
+- [18 Weird and Wonderful ways I use Docker (NetworkChuck)](https://youtu.be/RUqGlWr5LBA?si=PvyXO8bqtKv1gklc)
+- [Docker and Kubernetes (Big Data)](https://youtu.be/PrusdhS2lmo?si=3JTbqXKyshN0DAyb)
+- [Intro to Docker (Typcraft)](https://youtu.be/Ud7Npgi6x8E?si=M0NUXh8HRoI1o2qJ)
+- [Docker Tutorial for Beginners (Fireship)](https://youtu.be/gAkwW2tuIqE?si=GjjDAXTn4ob7BSk4)
+- [Docker Tutorial for Beginners (Mosh)](https://youtu.be/pTFZFxd4hOI?si=V-CklDrrzjFheE8x)
+- [Docker Containers and Kubernetes Fundamentals (FreeCodeCamp.org)](https://youtu.be/kTp5xUtcalw?si=VMTx-DNWzoshL4EQ)
+
+Task: <br>
+1- Install Docker and Docker Compose on your system. <br>
+2- Pull and run basic images like `ubuntu`, `postgresql`, and `mysql`. <br>
+3- Create your own Dockerfile for a small web server. <br>
+4- Use Docker Compose to spin up a multi-container app. <br>
+5- Explore common `docker` CLI commands: `ps`, `images`, `logs`, `exec`, etc.
+6- Write a document containing what you have learned about docker. <br>
+
+Bonus: Learn about Kubernetes.
+
+Note: Docker is one of the most essential tools for modern backend developers. Understanding images, containers, and orchestration tools like Docker Compose is crucial for building scalable, portable applications.
