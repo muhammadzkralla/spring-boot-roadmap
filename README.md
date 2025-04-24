@@ -1129,3 +1129,16 @@ Task: <br>
 Bonus: Learn about Kubernetes.
 
 Note: Docker is one of the most essential tools for modern backend developers. Understanding images, containers, and orchestration tools like Docker Compose is crucial for building scalable, portable applications.
+
+
+## Week 33: Microservices Architecture, Gateway, Discovery Server, and Config Server
+
+Topics:
+
+Resources:
+
+Bonus:
+
+Note:
+
+
