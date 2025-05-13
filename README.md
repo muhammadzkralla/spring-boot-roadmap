@@ -1123,7 +1123,7 @@ Task: <br>
 2- Pull and run basic images like `ubuntu`, `postgresql`, and `mysql`. <br>
 3- Create your own Dockerfile for a small web server. <br>
 4- Use Docker Compose to spin up a multi-container app. <br>
-5- Explore common `docker` CLI commands: `ps`, `images`, `logs`, `exec`, etc.
+5- Explore common `docker` CLI commands: `ps`, `images`, `logs`, `exec`, etc. <br>
 6- Write a document containing what you have learned about docker. <br>
 
 Bonus: Learn about Kubernetes.
