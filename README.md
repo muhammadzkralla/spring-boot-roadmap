@@ -8,7 +8,8 @@ Created and Prepared By [Mohamed Zkrallah](https://github.com/muhammadzkralla).
 
 ## Criteria
 - Three Levels: Beginner, Intermediate, and Advanced, with a focus on building strong fundamentals before progressing to advanced topics.
-- Practical Approach: Tasks are abstracted for brevity, with more details available in Notion.
+- Practical Approach: Tasks are abstracted for brevity, leaving more space for your creativity and decision making.
+- Total Dependence: This is just a roadmap, not a course, diploma, or anything similar. It's just a logical ordering of topics that I, personally, think is reasonable and easier to understand, and adopt Spring Boot as a backend framework faster following this particular order of learning. Totally feel free to study things from different resources, do more tasks, and so on. If you just stick with the roadmap, you will be good enough. If you outsource more resources and tasks, you will be awesome.
 - Bonuses: Bonuses are included for deeper learning. They are not optional, don’t skip them entirely, do them later if you don't have time then. Most bonuses will be already discussed in later weeks.
 - AI-Assisted Learning: Feel free to use AI to explore topics further but avoid relying on it to complete tasks or write code for you.
 - Time Interval: Some topics can not be finished in just one week, try to learn as much as you can and get back later.
@@ -1134,11 +1135,28 @@ Note: Docker is one of the most essential tools for modern backend developers. U
 ## Week 33: Microservices Architecture, Gateway, Discovery Server, and Config Server
 
 Topics:
+* Microservices Architecture
+* API Gateways
+* Discovery Server
+* Configuration Server
 
 Resources:
+- [Spring Microservices Documentation](https://spring.io/microservices)
+- [Spring Cloud Documentation](https://spring.io/projects/spring-cloud)
+- [Spring Cloud Gateway Documentation](https://spring.io/projects/spring-cloud-gateway)
+- [Spring Cloud Netflix Eureka Documentation](https://spring.io/projects/spring-cloud-netflix)
+- [Spring Cloud Config Documentation](https://spring.io/projects/spring-cloud-config)
+- [Microservices Architecture Tutorial (Java Brains)](https://youtu.be/hmkF77F9TLw?si=sq4k3I99PkVfKn3z)
+- [Spring Boot Microservices - Full Course (Amigoscode)](https://youtu.be/mPPhcU7oWDU?si=mnGZb04ZObu1VYe6)
+- [Spring Boot Microservices with Spring Cloud (Telusko)](https://youtu.be/joiB5gMyW5M?si=aJ8JlnsEzFswHt2E)
+- [Spring Cloud Gateway Tutorial (Code Decode)](https://youtu.be/Fsyd2Ueah8Y?si=etwUq0f0Esln3GbK)
+- [Spring Cloud Config Server Tutorial (Code Decode)](https://youtu.be/x5LMk7EWV-k?si=zCMxTKRSRqpHyR7M)
+- [Eureka Discovery Server Tutorial (Code Decode)](https://youtu.be/OLYg3z3aSqg?si=X6FjQ3D8Grqp6q8t)
+
+Task: <br>
 
 Bonus:
 
-Note:
+Note: As I highlighted at the beginning of the roadmap in the criteria section, and like any other week's content in this roadmap, I need to stress this more in this particular week. This content is not enough by any chance to be fully prepared with microservices architecture and be comfortable building and implementing microservices. Microservices architecture is a really vast and broad topic that needs to be studied deeply and applying on what you have learned, as the hard part about microservices doesn't lie in understanding the concept itself but the difficulties you face along the time implementing what you understood in code.
 
 
