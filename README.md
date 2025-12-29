@@ -19,8 +19,6 @@ Created and Prepared By [Mohamed Zkrallah](https://github.com/muhammadzkralla).
 
 ---
 
-[First of all,<br>
-you can explore the backend concepts you’ll encounter throughout your learning journey](https://youtube.com/playlist?list=PLVMqeUndPM9-ydOUDMGP9bUhaMTt_728Y&si=4y_EomvWrPttZQ3w)
 
 # Level 1: Beginner (Weeks 1–10)
 
