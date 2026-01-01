@@ -1155,8 +1155,10 @@ Resources:
 - [Eureka Discovery Server Tutorial (Code Decode)](https://youtu.be/OLYg3z3aSqg?si=X6FjQ3D8Grqp6q8t)
 
 Task: <br>
+1- Build a very simple microservices project with only an API Gateway, a Discovery Server, and two microservices. <br>
+2- Take an old project and migrate it to the microservices architecture. <br>
 
-Bonus:
+Bonus: Learn more about the microservices architecture.
 
 Note: As I highlighted at the beginning of the roadmap in the criteria section, and like any other week's content in this roadmap, I need to stress this more in this particular week. This content is not enough by any chance to be fully prepared with microservices architecture and be comfortable building and implementing microservices. Microservices architecture is a really vast and broad topic that needs to be studied deeply and applying on what you have learned, as the hard part about microservices doesn't lie in understanding the concept itself but the difficulties you face along the time implementing what you understood in code.
 
