@@ -1181,7 +1181,7 @@ Resources:
 - [Spring for RabbitMQ Documentation](https://spring.io/guides/gs/messaging-rabbitmq)
 - [Spring AMQP Documentation](https://docs.spring.io/spring-amqp/reference/)
 - [Spring JMS Documentation](https://docs.spring.io/spring-framework/reference/integration/jms.html)
-- [Messaging with RabbitMQ Documentation](https://spring.io/guides/gs/messaging-rabbitmq)
+
 Task: <br>
 
 Bonus:
