@@ -1181,6 +1181,9 @@ Resources:
 - [Spring for RabbitMQ Documentation](https://spring.io/guides/gs/messaging-rabbitmq)
 - [Spring AMQP Documentation](https://docs.spring.io/spring-amqp/reference/)
 - [Spring JMS Documentation](https://docs.spring.io/spring-framework/reference/integration/jms.html)
+- [Message Queues Explained (IBM Technology)](https://youtu.be/xErwDaOc-Gs?si=example)
+- [Kafka in 100 Seconds (Fireship)](https://youtu.be/uvb00oaa3k8?si=example)
+- [RabbitMQ in 100 Seconds (Fireship)](https://youtu.be/NQ3fZtyXji0?si=example)
 
 Task: <br>
 
