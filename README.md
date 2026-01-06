@@ -1181,9 +1181,11 @@ Resources:
 - [Spring for RabbitMQ Documentation](https://spring.io/guides/gs/messaging-rabbitmq)
 - [Spring AMQP Documentation](https://docs.spring.io/spring-amqp/reference/)
 - [Spring JMS Documentation](https://docs.spring.io/spring-framework/reference/integration/jms.html)
-- [Message Queues Explained (IBM Technology)](https://youtu.be/xErwDaOc-Gs?si=example)
-- [Kafka in 100 Seconds (Fireship)](https://youtu.be/uvb00oaa3k8?si=example)
-- [RabbitMQ in 100 Seconds (Fireship)](https://youtu.be/NQ3fZtyXji0?si=example)
+- [Message Queues Explained (IBM Technology)](https://youtu.be/xErwDaOc-Gs)
+- [Kafka in 100 Seconds (Fireship)](https://youtu.be/uvb00oaa3k8)
+- [RabbitMQ in 100 Seconds (Fireship)](https://youtu.be/NQ3fZtyXji0)
+- [Publish-Subscribe Architecture (Hussein Nasser)](https://youtu.be/O1PgqUqZKTA?si=mHuJ7vB12zMo6hEi)
+- [Apache Kafka Crash Course (Hussein Nasser)](https://youtu.be/R873BlNVUB4?si=example)
 
 Task: <br>
 
