@@ -1,7 +1,7 @@
 # Spring Boot Roadmap
 
 ## Introduction
-This roadmap is designed to guide you through the fundamentals of Spring Boot and backend development, from beginner to advanced levels. Each stage is thoughtfully structured with specific goals, curated resources, and hands-on tasks to ensure practical learning.
+This roadmap is designed to guide you through the fundamentals of Spring Boot and backend development, from beginner to advanced levels. Each stage is structured with specific goals, resources, and hands-on tasks to ensure practical learning.
 
 Created and Prepared By [Mohamed Zkrallah](https://github.com/muhammadzkralla).
 
@@ -9,7 +9,7 @@ Created and Prepared By [Mohamed Zkrallah](https://github.com/muhammadzkralla).
 ## Criteria
 - Three Levels: Beginner, Intermediate, and Advanced, with a focus on building strong fundamentals before progressing to advanced topics.
 - Practical Approach: Tasks are abstracted for brevity, leaving more space for your creativity and decision making.
-- Total Dependence: This is just a roadmap, not a course, diploma, or anything similar. It's just a logical ordering of topics that I, personally, think is reasonable and easier to understand, and adopt Spring Boot as a backend framework faster following this particular order of learning. Totally feel free to study things from different resources, do more tasks, and so on. If you just stick with the roadmap, you will be good enough. If you outsource more resources and tasks, you will be awesome.
+- Total Dependence: This is just a roadmap, not a course, diploma, or anything similar. It's just a logical ordering of topics that I, personally, think is reasonable and easier to understand and adopt Spring Boot as a backend framework faster following this particular order of learning. Totally feel free to study things from different resources, do more tasks, and so on. If you just stick with the roadmap, you will be good enough. If you outsource more resources and tasks, you will be awesome.
 - Bonuses: Bonuses are included for deeper learning. They are not optional, don’t skip them entirely, do them later if you don't have time then. Most bonuses will be already discussed in later weeks.
 - AI-Assisted Learning: Feel free to use AI to explore topics further but avoid relying on it to complete tasks or write code for you.
 - Time Interval: Some topics can not be finished in just one week, try to learn as much as you can and get back later.
@@ -311,7 +311,7 @@ Focus:
 
 ---
 
-## Week 11: Spring Core (IoC & DI)
+## Week 11: Spring Core (AOP, IoC, and DI)
 
 Topics:
 * Inversion of Control & IoC Container
@@ -1133,7 +1133,7 @@ Bonus: Learn about Kubernetes.
 Note: Docker is one of the most essential tools for modern backend developers. Understanding images, containers, and orchestration tools like Docker Compose is crucial for building scalable, portable applications.
 
 
-## Week 33: Microservices Architecture, Gateway, Discovery Server, and Config Server
+## Week 33: Microservices Architecture, API Gateway, Discovery Server, and Config Server
 
 Topics:
 * Microservices Architecture
