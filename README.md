@@ -1186,6 +1186,8 @@ Resources:
 - [RabbitMQ in 100 Seconds (Fireship)](https://youtu.be/NQ3fZtyXji0)
 - [Publish-Subscribe Architecture (Hussein Nasser)](https://youtu.be/O1PgqUqZKTA?si=mHuJ7vB12zMo6hEi)
 - [Apache Kafka Crash Course (Hussein Nasser)](https://youtu.be/R873BlNVUB4?si=example)
+- [RabbitMQ Crash Course (Hussein Nasser)](https://youtu.be/Cie5v59mrTg?si=kc8F34FJkC8qx8NQ)
+- [RabbitMQ vs Kafka (Tech Primers)](https://youtu.be/GMmRtSFQ5Z0?si=KAJHqvzcrWcxC38R)
 
 Task: <br>
 
