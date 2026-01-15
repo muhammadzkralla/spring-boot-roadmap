@@ -1196,6 +1196,11 @@ Resources:
 - [RabbitMQ Tutorial (GeeksforGeeks)](https://www.geeksforgeeks.org/blogs/introduction-to-rabbitmq/)
 
 Task: <br>
+1- Set up a local Kafka broker and create a simple producer-consumer application in Spring Boot. <br>
+2- Implement a RabbitMQ message queue:
+* Create a producer service that sends messages to a queue.
+* Create a consumer service that processes messages from the queue.
+* Test the communication between microservices using RabbitMQ. <br>
 
 Bonus:
 
