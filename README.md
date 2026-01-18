@@ -1211,3 +1211,7 @@ Task: <br>
 
 Bonus: Explore Mosquitto MQTT broker and learn how it's used to integrate with embedded systems.
 
+Note: <br>
+* Message queues are essential for building scalable, decoupled microservices. They enable asynchronous communication and improve system resilience.
+* Kafka is better suited for event streaming and real-time data pipelines, while RabbitMQ excels at task queues and traditional message brokering.
+* ActiveMQ is another popular message broker, but Kafka and RabbitMQ are more commonly used in modern architectures. Feel free to explore ActiveMQ if interested.
