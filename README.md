@@ -1202,6 +1202,12 @@ Task: <br>
 * Create a consumer service that processes messages from the queue.
 * Test the communication between microservices using RabbitMQ. <br>
 
-Bonus:
+3- Build an Event-Driven Microservices System:
+* Create two microservices (Order Service and Notification Service).
+* When an order is placed in the Order Service, publish an event to Kafka/RabbitMQ.
+* The Notification Service should consume the event and send a notification ( email or log ). <br>
 
-Note:
+4- Write a document explaining the differences between Kafka and RabbitMQ. <br>
+
+Bonus: Explore Mosquitto MQTT broker and learn how it's used to integrate with embedded systems.
+
