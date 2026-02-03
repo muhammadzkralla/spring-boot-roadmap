@@ -1215,3 +1215,72 @@ Note: <br>
 * Message queues are essential for building scalable, decoupled microservices. They enable asynchronous communication and improve system resilience.
 * Kafka is better suited for event streaming and real-time data pipelines, while RabbitMQ excels at task queues and traditional message brokering.
 * ActiveMQ is another popular message broker, but Kafka and RabbitMQ are more commonly used in modern architectures. Feel free to explore ActiveMQ if interested.
+
+
+## Week 35: Building a Microservices-Based E-Commerce Platform
+
+### **Project Overview**
+Migrate the **E-Commerce backend** from Week 19 into a **microservices architecture** using **Kafka/RabbitMQ**, **API Gateway**, **Eureka**, **Redis**, **Docker**, and **Spring Cloud Config**.
+
+---
+
+### **Objectives**
+- Migrate monolithic application to microservices.
+- Implement async communication using Kafka/RabbitMQ.
+- Use Spring Cloud Gateway and Eureka for routing and discovery.
+- Implement distributed caching with Redis.
+- Containerize microservices with Docker.
+- Integrate Stripe for payments and Firebase FCM for notifications.
+- Write unit and integration tests.
+
+---
+
+### **Microservices**
+
+1. **API Gateway** - Routes requests, handles JWT validation.
+2. **Eureka Server** - Service discovery.
+3. **Config Server** - Centralized configuration.
+4. **User Service** - User registration, authentication (JWT), profile management. Uses PostgreSQL.
+5. **Product Service** - Product and category CRUD, pagination, filtering. Uses PostgreSQL.
+6. **Order Service** - Order creation and management. Uses MongoDB.
+7. **Payment Service** - Payment processing with Stripe. Uses PostgreSQL.
+8. **Notification Service** - Email (SMTP) and push notifications (Firebase FCM). Uses MongoDB.
+9. **Cart Service** - Shopping cart operations. Uses Redis.
+
+---
+
+### **Event-Driven Communication**
+
+- **User Registration Event**: User Service -> Notification Service (welcome email)
+- **Order Created Event**: Order Service -> Payment Service (process payment)
+- **Payment Success Event**: Payment Service -> Order Service (update status) & Notification Service (confirmation)
+- **Product Updated Event**: Product Service -> Cart Service (update cached data)
+
+---
+
+### **Tasks**
+
+1. Break down the monolithic app into the microservices above.
+2. Set up Eureka Server and register all services.
+3. Configure API Gateway for dynamic service discovery.
+4. Implement event publishing/consumption with Kafka or RabbitMQ.
+5. Use Redis for cart storage and product caching.
+6. Integrate Stripe in Payment Service.
+7. Send notifications via SMTP and Firebase FCM.
+8. Write Dockerfile for each service and create docker-compose.yml.
+9. Write unit and integration tests.
+
+---
+
+### **Bonus**
+
+- Implement distributed tracing with Zipkin.
+- Add centralized logging with ELK Stack.
+- Add GraphQL API to Product Service.
+- Implement circuit breaker with Resilience4j.
+
+---
+
+### **Note**
+
+This project migrates the Week 19 monolithic app to microservices. According to `Building Microservices Book by Sam Newman` and other books I read, in practice, start with monolithic architecture and migrate only when needed. Microservices add complexity in deployment, monitoring, and debugging. This project helps you understand these challenges. Take your time and revisit earlier content as needed. The books really insist that you do not start a project with the microservices architecture unless it's a very simple one or you are already familiar with the domain of that project and built it before as a monolithic many times.
