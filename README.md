@@ -1284,3 +1284,74 @@ Migrate the **E-Commerce backend** from Week 19 into a **microservices architect
 ### **Note**
 
 This project migrates the Week 19 monolithic app to microservices. According to `Building Microservices Book by Sam Newman` and other books I read, in practice, start with monolithic architecture and migrate only when needed. Microservices add complexity in deployment, monitoring, and debugging. This project helps you understand these challenges. Take your time and revisit earlier content as needed. The books really insist that you do not start a project with the microservices architecture unless it's a very simple one or you are already familiar with the domain of that project and built it before as a monolithic many times.
+
+
+---
+
+# Appendix: Additional Topics for Further Learning
+
+This appendix briefly covers important topics that weren't fully explored in the main roadmap but are valuable for backend development in general.
+
+---
+
+## System Design
+
+As you progress in seniority, you might gradually stop coding and start planning and designing systems. Especially in the current era of software engineering, where LLMs started becoming actually good at writing code, engineers tend toward designing systems more than building them.
+
+---
+
+## Kotlin
+
+Kotlin is a modern JVM language that's fully interoperable with Java. It offers concise syntax, null safety, and better functional programming support. Many companies use Kotlin for Spring Boot projects. Spring Boot has first-class support for Kotlin. You can use Kotlin instead of Java for controllers, services, and entities. Kotlin's coroutines integrate well with reactive Spring. Kotlin is a very fantastic language, in my opinion. One more note is that Java used to dominate the Android development market back in time, and Kotlin was a minor player, but sometime between 2020 and 2022, Kotlin became the dominant language in the Android development market. So, although Java is still dominant in Spring Boot, you should be ready anytime.
+
+---
+
+## Advanced Microservices Patterns
+
+Java is more common in enterprise companies and big projects, and those projects often follow the microservices architecture. So, you should be more than comfortable working in such environments.
+
+---
+
+## Design Patterns
+
+Design patterns provide proven solutions to common software design problems. Understanding patterns like Factory, Strategy, Observer, Singleton, and Decorator improves code quality and maintainability. Spring Framework itself uses many design patterns (Dependency Injection is a pattern). Apply patterns in your services, controllers, and business logic to write cleaner, more flexible code.
+
+---
+
+## More Database Technologies
+
+Although back-end is not all about CRUD operations in a database, it is a big part of back-end development. So, you should be familiar with different types of databases and know their features as well as know when to use which.
+
+---
+
+## Distributed Systems
+
+Distributed systems concepts like consensus algorithms (Raft, Paxos), distributed transactions, eventual consistency, and distributed caching are essential for building large-scale applications. When building microservices, you're already working with distributed systems.
+
+---
+
+## SOAP Web Services
+
+While REST is more popular, many enterprise systems and legacy applications still use SOAP. Understanding SOAP helps you integrate with these systems. Spring Boot supports SOAP through Spring Web Services. You can create SOAP endpoints, consume SOAP services, and work with WSDL files.
+
+---
+
+## gRPC
+
+gRPC is a high-performance RPC framework that uses HTTP/2 and Protocol Buffers. It's faster than REST for service-to-service communication and supports streaming. Use gRPC for internal microservice communication when performance is critical. Spring Boot doesn't have built-in gRPC support, but libraries like grpc-spring-boot-starter make integration easy.
+
+---
+
+## Cloud Platforms (AWS, Azure, GCP)
+
+Modern applications are deployed on cloud platforms. Understanding cloud services like compute (EC2, Lambda), storage (S3, Blob Storage), databases (RDS, DynamoDB), and messaging (SQS, Service Bus) is essential.
+
+---
+
+## CI/CD (Continuous Integration/Continuous Deployment)
+
+CI/CD automates testing, building, and deploying applications. It improves code quality, reduces manual errors, and speeds up releases.
+
+---
+
+**Final Note**: This appendix covers topics that will deepen your expertise in Spring Boot and backend development. You don't need to learn everything at once. Pick topics based on your interests and career goals, and explore them gradually.
