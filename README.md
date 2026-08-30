@@ -7,7 +7,7 @@ This roadmap is designed to guide you through the fundamentals of Spring Boot an
 
 Created and Prepared By [Mohamed Zkrallah](https://github.com/muhammadzkralla).
 
-![Overview Visualization](images/sprint_boot_roadmap_dark.svg)
+![Overview Visualization](images/spring_boot_roadmap_dark.svg)
 
 ## Criteria
 - Three Levels: Beginner, Intermediate, and Advanced, with a focus on building strong fundamentals before progressing to advanced topics.
