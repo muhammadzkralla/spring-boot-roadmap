@@ -1,10 +1,13 @@
 # Spring Boot Roadmap
 
+![Roadmap Milestone](images/spring_boot_roadmap_milestone.svg)
+
 ## Introduction
 This roadmap is designed to guide you through the fundamentals of Spring Boot and backend development, from beginner to advanced levels. Each stage is structured with specific goals, resources, and hands-on tasks to ensure practical learning.
 
 Created and Prepared By [Mohamed Zkrallah](https://github.com/muhammadzkralla).
 
+![Overview Visualization](images/sprint_boot_roadmap_dark.svg)
 
 ## Criteria
 - Three Levels: Beginner, Intermediate, and Advanced, with a focus on building strong fundamentals before progressing to advanced topics.
